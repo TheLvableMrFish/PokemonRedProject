@@ -1,0 +1,1275 @@
+/* :root{
+    /* --charUP: 'charU.png';
+    --charRIGHT: 'charR.png'; */
+    /* --charDirection: 'char.png'; */
+    /* --charLEFT: 'charL.png';
+ */
+ /* when trying to create directions, expermented with :root to see about setting and changing variables with js */
+.title{
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 68px;
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    color: white;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    margin-left: 35%;
+    /* border: 1px solid #000; */
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+
+
+.menu{
+    position: absolute;
+    top: 0;
+}
+/* battle css */
+.textBox{
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    border: 1px solid white;
+    height: 100px;
+    width: 540px;
+    color: white;
+    background: black;
+    outline: 5px solid black;
+    transform: translate(-50%, -50%);
+}
+
+.text{
+    padding: 5px;
+}
+
+
+.tops{
+    height: 50%;
+    width: 100%;
+    /* background: red; */
+}
+.health1{
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    height: 20%;
+    width: 50%;
+    /* background: blue; */
+}
+.pokemon1{
+    position: absolute;
+    height: 40%;
+    width: 25%;
+    right: 30px;
+    top: 30px;
+    /* background: yellow; */
+}
+.health2{
+    position: absolute;
+    bottom: 80px;
+    right: 15px;
+    height: 20%;
+    width: 50%;
+    /* background: blue; */
+}
+.pokemon2{
+    position: absolute;
+    height: 40%;
+    width: 25%;
+    left: 30px;
+    bottom: 50px;
+    /* background: yellow; */
+}
+
+.buttons{
+    position:relative;
+    margin-left: 290px;
+    margin-top: 215px;
+    padding-right: 20px;
+}
+
+.btn{
+    width: 80px;
+    height: 25px;
+    margin: 5px;
+    border: 1px solid black;
+    background: none;
+    font-size: 18px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    cursor: hand;
+    background: lightgray;
+}
+
+.name1{
+    position: absolute;
+    left: 50px;
+    top: -1px;
+    font-size: 20px;
+}
+.name2{
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+    font-size: 20px;
+}
+
+.perPokemon{
+    display: flex;
+    font-size: 25px;
+}
+.perPokemon .level, .perPokemon .exp{
+    margin-left: 10px;
+}
+
+/* battle css end */
+/* ground folder / ground images start */
+
+.tallGrass{
+    background: 
+    url(../pokemon/media/ground/tallGrass.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;   
+}  /*0*/
+.grass{
+
+    background: 
+    url(../pokemon/media/ground/grass.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+} /*1*/
+.black{
+    /* background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box; */
+    background: 
+    url(../pokemon/media/ground/black.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+    /* background-size: 100% 50%; */
+    
+} /*2*/
+.ground{
+    /* background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box; */
+    background: 
+    url(../pokemon/media/ground/ground.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+    /* background-size: 100% 50%; */
+    
+} /*3*/
+.flowerDR{
+    /* background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box; */
+    background: 
+    url(../pokemon/media/ground/ground_flowerDownRight.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+    /* background-size: 100% 50%; */
+    
+} /*4*/
+.flowerUL{
+    /* background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box; */
+    background: 
+    url(../pokemon/media/ground/ground_flowerUpLeft.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+    /* background-size: 100% 50%; */
+    
+} /*5*/
+.houseFloor{
+    /* background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box; */
+    background: 
+    url(../pokemon/media/ground/ground_house.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+    /* background-size: 100% 50%; */
+    
+} /*6*/
+.land{
+    /* background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box; */
+    background: 
+    url(../pokemon/media/ground/ground_land.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+    /* background-size: 100% 50%; */
+    
+} /*7*/
+.blank{
+    /* background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box; */
+    background: 
+    url(../pokemon/media/ground/groundBlank.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+    /* background-size: 100% 50%; */
+    
+} /*8*/
+.smallGrass{
+    /* background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box; */
+    background: 
+    url(../pokemon/media/ground/groundOneDot.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+    /* background-size: 100% 50%; */
+    
+} /*9*/
+.groundWStairs{
+    /* background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box; */
+    background: 
+    url(../pokemon/media/ground/groundWithStairs.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+    /* background-size: 100% 50%; */
+    
+} /*10*/
+.ledgeL{
+    /* background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box; */
+    background: 
+    url(../pokemon/media/ground/ledge.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+    /* background-size: 100% 50%; */
+    
+} /*11*/
+.ledgeR{
+    /* background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box; */
+    background: 
+    url(../pokemon/media/ground/right_ledge.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+    /* background-size: 100% 50%; */
+    
+} /*12*/
+.ledgeLightR{
+    /* background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box; */
+    background: 
+    url(../pokemon/media/ground/ledgeWhite.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+    /* background-size: 100% 50%; */
+    
+} /*13*/
+.ledgeLightL{
+    /* background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box; */
+    background: 
+    url(../pokemon/media/ground/left_ledgeWhite.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+    /* background-size: 100% 50%; */
+    
+} /*14*/
+
+/* ground folder / ground images end */
+
+/* solid objects for path blocking start */
+
+.tree{
+    /* background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box; */
+    background: 
+    url(../pokemon/media/tree.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+    /* background-size: 100% 50%; */
+    
+} /*15*/
+.rock{
+    background: 
+    url(../pokemon/media/rock.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+} /*16*/
+.sign{
+    background: 
+    url(../pokemon/media/sign.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+} /*17*/
+.wood{
+    background: 
+    url(../pokemon/media/wood.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+} /*18*/
+.water{
+    background: 
+    url(../pokemon/media/water.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+} /*19*/
+.stairsUp{
+    background: 
+    url(../pokemon/media/stairs_up_house.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+} /*20*/
+.stairsDown{
+    background: 
+    url(../pokemon/media/stairs_down_house.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+} /*21*/
+.bolder{
+    background: 
+    url(../pokemon/media/moreimages/bigBolder.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+} /*95*/
+
+/* solid objects for path blocking end */
+
+/* decore start */
+
+.bookCaseD{
+    /* background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box; */
+    background: 
+    url(../pokemon/media/decor/bookcase-down.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+    /* background-size: 100% 50%; */
+    
+} /*22*/
+.bookCaseU{
+    /* background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box; */
+    background: 
+    url(../pokemon/media/decor/bookcase-up.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+    /* background-size: 100% 50%; */
+    
+} /*23*/
+.bedT{
+    /* background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box; */
+    background: 
+    url(../pokemon/media/decor/top_bed.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+    /* background-size: 100% 50%; */
+    
+} /*24*/
+.bedB{
+    /* background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box; */
+    background: 
+    url(../pokemon/media/decor/bottom_bed.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+    /* background-size: 100% 50%; */
+    
+} /*25*/
+.plantT{
+    /* background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box; */
+    background: 
+    url(../pokemon/media/decor/top_plant.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+    /* background-size: 100% 50%; */
+    
+} /*26*/
+.plantB{
+    /* background-color: green;
+    border: 5px solid white;
+    box-sizing: border-box; */
+    background: 
+    url(../pokemon/media/decor/bottom_plant.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+    /* background-size: 100% 50%; */
+    
+} /*27*/
+.chair{
+    background: 
+    url(../pokemon/media/decor/chair-groundHouse.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*28*/
+.keyboard{
+    background: 
+    url(../pokemon/media/decor/keyboard_table.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*29*/
+.pc{
+    background: 
+    url(../pokemon/media/decor/pc_with_wall.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*30*/
+.rug{
+    background: 
+    url(../pokemon/media/decor/rugHouse.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*31*/
+.snes{
+    background: 
+    url(../pokemon/media/decor/snes.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*32*/
+.tv{
+    background: 
+    url(../pokemon/media/decor/tv.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*33*/
+.tableBL{
+    background: 
+    url(../pokemon/media/decor/table_floor.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*34*/
+.tableBR{
+    background: 
+    url(../pokemon/media/decor/table_floor2.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*35*/
+.tableBLFloor{
+    background: 
+    url(../pokemon/media/decor/tableHouseBottomLeft.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*36*/
+.tableBRFloor{
+    background: 
+    url(../pokemon/media/decor/tableHouseBottomRight.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*37*/
+.tableTRWall{
+    background: 
+    url(../pokemon/media/decor/table_with_wall.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*38*/
+.tableTLWall{
+    background: 
+    url(../pokemon/media/decor/table_with_wall2.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*39*/
+.tableTLFlower{
+    background: 
+    url(../pokemon/media/decor/tableHouseTopLeft.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*40*/
+.tableTRFlower{
+    background: 
+    url(../pokemon/media/decor/tableHouseTopRight.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*41*/
+
+/* decore end */
+
+/* water border start */
+
+.borderL{
+    background: 
+    url(../pokemon/media/border/borderLeft.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box; 
+} /*42*/
+.borderLU{
+    background: 
+    url(../pokemon/media/border/borderLeftUp.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box; 
+} /*43*/
+.borderR{
+    background: 
+    url(../pokemon/media/border/borderRight.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box; 
+} /*44*/
+.borderRU{
+    background: 
+    url(../pokemon/media/border/borderRightUp.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box; 
+} /*45*/
+
+/* out of order missing obrder */
+
+.borderU{
+    background: 
+    url(../pokemon/media/border/borderUp.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box; 
+} /*74*/
+
+/* water border end */
+
+/* house start */
+
+.btmRoof{
+    background: 
+    url(../pokemon/media/house/bottomRoofBuilding.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*46*/
+.buildBL{
+    background: 
+    url(../pokemon/media/house/buildingDownLeft.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*47*/
+.buildBR{
+    background: 
+    url(../pokemon/media/house/buildingDownRight.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*48*/
+.door{
+    background: 
+    url(../pokemon/media/house/door.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*49*/
+.houseDL{
+    background: 
+    url(../pokemon/media/house/houseDownLeft.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*50*/
+.houseDR{
+    background: 
+    url(../pokemon/media/house/houseDownRight.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*51*/
+.houseTwoWindows{
+    background: 
+    url(../pokemon/media/house/houseDownTwoWindows.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*52*/
+.buildRoofLD{
+    background: 
+    url(../pokemon/media/house/leftDownRoofBuilding.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*53*/
+.roofL{
+    background: 
+    url(../pokemon/media/house/leftRoof.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*54*/
+.buildRoofL{
+    background: 
+    url(../pokemon/media/house/leftRoofBuilding.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*55*/
+.buildRoofLS{
+    background: 
+    url(../pokemon/media/house/leftSideRoofBuilding.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*56*/
+.buildLWindow{
+    background: 
+    url(../pokemon/media/house/oneWindowBuilding.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*57*/
+.buildRWindow{
+    background: 
+    url(../pokemon/media/house/oneWindowBuildingTwo.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*58*/
+.roofBR{
+    background: 
+    url(../pokemon/media/house/rightDownRoofBuilding.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*59*/
+.roofR{
+    background: 
+    url(../pokemon/media/house/rightRoof.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*60*/
+.buildRoofR{
+    background: 
+    url(../pokemon/media/house/rightRoofBuilding.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*61*/
+.buildRSRoof{
+    background: 
+    url(../pokemon/media/house/rightSideRoofBuilding.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*62*/
+.buildRoof{
+    background: 
+    url(../pokemon/media/house/roofBuilding.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*63*/
+.houseTOneWindow{
+    background: 
+    url(../pokemon/media/house/topHouseOneWindow.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*64*/
+.houseTTwoWindow{
+    background: 
+    url(../pokemon/media/house/topHouseTwoWindows.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*65*/
+.houseTL{
+    background: 
+    url(../pokemon/media/house/topLeftHouse.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*66*/
+.houseTR{
+    background: 
+    url(../pokemon/media/house/topRightHouse.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*67*/
+.roofT{
+    background: 
+    url(../pokemon/media/house/topRoof.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*68*/
+.buildTRoof{
+    background: 
+    url(../pokemon/media/house/topRoofBuilding.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*69*/
+.buildTwoWindow{
+    background: 
+    url(../pokemon/media/house/twoWindowsBuilding.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*70*/
+.buildTwoWindowBrick{
+    background: 
+    url(../pokemon/media/house/twoWindowsBuildingBricks.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*71*/
+.houseWall{
+    background: 
+    url(../pokemon/media/house/wall_house.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*72*/
+.houseWindow{
+    background: 
+    url(../pokemon/media/house/window_house.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*73*/
+
+/* house end */
+
+/* med start */
+
+.med11{
+    background: 
+    url(../pokemon/media/med/med11.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*76*/
+.med12{
+    background: 
+    url(../pokemon/media/med/med12.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*77*/
+.med13{
+    background: 
+    url(../pokemon/media/med/med13.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*78*/
+.med14{
+    background: 
+    url(../pokemon/media/med/med14.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*79*/
+.med21{
+    background: 
+    url(../pokemon/media/med/med21.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*80*/
+.med22{
+    background: 
+    url(../pokemon/media/med/med22.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*81*/
+.med23{
+    background: 
+    url(../pokemon/media/med/med23.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*82*/
+.med24{
+    background: 
+    url(../pokemon/media/med/med24.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*83*/
+.med31{
+    background: 
+    url(../pokemon/media/med/med31.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*84*/
+.med32{
+    background: 
+    url(../pokemon/media/med/med32.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*85*/
+.med33{
+    background: 
+    url(../pokemon/media/med/med33.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*86*/
+.med34{
+    background: 
+    url(../pokemon/media/med/med34.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*87*/
+.med41{
+    background: 
+    url(../pokemon/media/med/med41.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*88*/
+.med42{
+    background: 
+    url(../pokemon/media/med/med42.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*89*/
+.med43{
+    background: 
+    url(../pokemon/media/med/med43.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*90*/
+.med44{
+    background: 
+    url(../pokemon/media/med/med44.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*91*/
+
+.medComputerL{
+    background: 
+    url(../pokemon/media/med/medComputerL.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*96*/
+.medComputerR{
+    background: 
+    url(../pokemon/media/med/medComputerR.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*97*/
+.healL{
+    background: 
+    url(../pokemon/media/med/healL.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*98*/
+.healR{
+    background: 
+    url(../pokemon/media/med/healR.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*99*/
+
+/* med end */
+
+/* mart sign */
+.mart{
+    background: 
+    url(../pokemon/media/med/mart.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*92*/
+
+/* mart sign end */
+
+/* mountain stuff */
+
+.mountainSide{
+    background: 
+    url(../pokemon/media/moreimages/rockSide.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*93*/
+.mountainDown{
+    background: 
+    url(../pokemon/media/moreimages/rockDown2.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*94*/
+
+/* mountain stuff end */
+
+/* mart stuff start */
+
+.register{
+    background: 
+    url(../pokemon/media/register.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*-1*/
+.shelf{
+    background: 
+    url(../pokemon/media/shelf.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; 
+} /*-2*/
+
+/* mart stuff end */
+
+.ball{
+    background: 
+    url(../pokemon/media/ball.png)
+    bottom / 100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ; /*-3*/  
+}
+
+/* character movement start */
+
+.char {
+    background: 
+    url(../pokemon/media/char/char.png)
+    top center /100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+}
+.charU {
+    background: 
+    url(../pokemon/media/char/charU.png)
+    top center /100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+}
+.charR {
+    background: 
+    url(../pokemon/media/char/charR.png)
+    top center /100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+}
+.charL {
+    background: 
+    url(../pokemon/media/char/charL.png)
+    top center /100% 100%
+    no-repeat
+    padding-box
+    content-box
+    ;
+}
+
+/* character movement end */
+
+.doorWay{
+    width: 100%;
+}
+
+.displayNone{
+    display: none;
+}
+
+@media only screen and (max-width: 1280px){
+    .textBox{
+        width: 30%;
+        height: 150px;
+        left: 20%;
+    }
+}
+
+@media only screen and (min-width: 3840px){
+    .grid{
+        margin-left: 28%;
+        width: 1680px;
+        height: 1680px;
+    }
+    .grid div{
+        width: 60px;
+        height: 60px;
+    }
+
+    .textBox{
+        left: 15%;
+        width: 24%;
+        height: 300px;
+        font-size: 35px;
+    }
+}
